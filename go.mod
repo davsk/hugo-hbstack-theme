@@ -1,4 +1,4 @@
-module github.com/hbstack/theme
+module github.com/davsk/hugo-hbstack-theme
 
 go 1.19
 
