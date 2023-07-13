@@ -1,7 +1,7 @@
-baseURL: https://theme.hbstack.dev/
-title: HB Starter Theme Template
+baseURL: https://theme.davsk.net/
+title: Davsk HB Starter Theme Template
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
+copyright: "Copyright © 2023 Davsk Ltd Co - Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true # disable this to remove the default language code from URL, i.e. /en/docs -> /docs.
 enableRobotsTXT: true
@@ -23,14 +23,14 @@ module:
     - path: github.com/hbstack/gallery/modules/breadcrumb
 
     # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
-    # - path: github.com/hbstack/syntax-highlighting/styles/github-dark
+    - path: github.com/hbstack/syntax-highlighting/styles/github-dark
   
     # icons modules
     - path: github.com/hugomods/icons/vendors/font-awesome
-    # - path: github.com/hugomods/icons/vendors/mdi
-    # - path: github.com/hugomods/icons/vendors/simple-icons
-    # - path: github.com/hugomods/icons/vendors/tabler
-    # - path: github.com/hugomods/icons/vendors/feather
+    - path: github.com/hugomods/icons/vendors/mdi
+    - path: github.com/hugomods/icons/vendors/simple-icons
+    - path: github.com/hugomods/icons/vendors/tabler
+    - path: github.com/hugomods/icons/vendors/feather
 
     # blog sidebar
     - path: github.com/hbstack/blog/modules/sidebar/posts
@@ -48,9 +48,9 @@ module:
     - path: github.com/hbstack/blog/modules/content-panel
 
     # docs comments engine
-    - path: github.com/hbstack/docs/modules/giscus
+    # - path: github.com/hbstack/docs/modules/giscus
     # - path: github.com/hbstack/docs/modules/utterances
-    # - path: github.com/hbstack/docs/modules/disqus
+    - path: github.com/hbstack/docs/modules/disqus
 
     # docs table of contents scrollspy
     - path: github.com/hbstack/docs/modules/toc-scrollspy
