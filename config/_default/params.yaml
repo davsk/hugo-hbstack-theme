@@ -8,13 +8,19 @@ hb:
     logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      twitter: razonyang
+      discord: comaldave
+      dockerhub: davsk
+      github: davsk
+      gitlab: comaldave
+      gmail: skinner.david
+      instagram: david.lynn.skinner
+      linkedin: david-l-skinner
+      twitter: SkinnerDavidL
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
+      github: davsk
       twitter: razonyang
   blog:
     full_width: false # when true, the blog layout takes full width.
